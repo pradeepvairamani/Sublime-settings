@@ -1,0 +1,4 @@
+[
+  { "keys": ["ctrl+shift+r"], "command": "run_single_test" },
+  { "keys": ["ctrl+shift+t"], "command": "run_all_tests" }
+]

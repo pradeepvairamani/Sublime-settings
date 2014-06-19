@@ -1,0 +1,19 @@
+{
+	"installed_packages":
+	[
+		"Anaconda",
+		"JSHint",
+		"JSHint Gutter",
+		"Pretty JSON",
+		"SideBarEnhancements",
+		"sublime-jslint",
+		"SublimeLinter-jsxhint",
+		"SyncedSideBar",
+		"Theme - Soda"
+	],
+	"repositories":
+	[
+		"https://bitbucket.org/projectplaceinternational/projectplacesublimetestrunner",
+		"https://github.com/niclas-ahden/SublimePythonCoverage"
+	]
+}

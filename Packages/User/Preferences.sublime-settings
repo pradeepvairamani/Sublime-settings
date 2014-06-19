@@ -1,0 +1,19 @@
+{
+	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"max-line-length": 200,
+	"pep8_ignore":
+	[
+		"E501"
+	],
+	"pep8_max_line_length": 200,
+	"python_interpreter": "/usr/bin/python",
+	"suppress_explicit_completions": false,
+	"suppress_word_completions": false,
+	"theme": "Soda Dark.sublime-theme",
+	"use_simple_full_screen": true
+}

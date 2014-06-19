@@ -1,0 +1,1 @@
+Test results now in the status bar. Not only in console

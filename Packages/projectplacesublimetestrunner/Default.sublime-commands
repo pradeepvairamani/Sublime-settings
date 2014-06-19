@@ -1,0 +1,4 @@
+[
+  { "caption": "Projectplace: Run single test", "command": "run_single_test" },
+  { "caption": "Projectplace: Run all tests", "command": "run_all_tests" }
+]

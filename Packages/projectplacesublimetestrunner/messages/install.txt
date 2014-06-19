@@ -1,0 +1,42 @@
+Glad to see that you have installed the Projectplace Sublime test runner.. In tests we trust right!
+___________________________________________________________________________________________________
+
+Before you start using the Plugin you will need to add some settings to your .sublime-project file. 
+(The plugin will not work unless you have a .sublime-project file)
+
+Add this to the file:
+"settings": 
+    {   
+        "projectplace_test_runner": 
+        {
+            "root_dev_env": "<CHANGE TO YOU ROOT PREFIX",
+            "domain":"<THE DOMAIN YOUR DEV ENVIRONMENT IS ON",
+            "run_on_save": "1 or EMPTY"
+        }
+    }
+"root_dev_env" will be something like ole, apr or shd. In other words, you personal dev environment prefix.
+
+"domain" will be ".next.in-dev.projectplace.com" for Bangalore developers and ".next.dev.projectplace.com" 
+for Stockholm developers. Don't forget the starting . in the url.
+
+"run_on_save" (Optional) Add a single 1 as value and then sublime will run the associated test file when 
+you save the file. Leave it empty if you do not want this, or remove the setting all together.
+
+___________________________________________________________________________________________________
+
+To run the Python unittests you can make use of the menu found when "right-click" on the file being edited. 
+Search for Projectplace and run your option. The same Menu is found under "Tools>Projectplace>"
+The result of the unittests will be presented in the Sublime Console, enable it by going to Sublime menu option Views>Show Console
+
+Shortcuts
+
+Mac: 
+	Run single test file(the currenct active file) through CMD+SHIFT+R
+	Run all test files through CMD+SHIFT+T
+
+
+Windows/Linux: 
+	Run single test file(the currenct active file) through CTRL+SHIFT+R
+	Run all test files through CTRL+SHIFT+T
+
+

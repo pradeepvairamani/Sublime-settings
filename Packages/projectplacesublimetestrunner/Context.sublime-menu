@@ -1,0 +1,11 @@
+[
+  { "caption": "-" },
+  {
+    "caption": "Projectplace",
+    "children":
+      [
+        { "caption": "Run single test", "command": "run_single_test" },
+        { "caption": "Run all tests", "command": "run_all_tests" }
+    ]
+  }
+]
